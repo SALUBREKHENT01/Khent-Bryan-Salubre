@@ -27,6 +27,7 @@ nav > ul {
   justify-content: space-evenly;
   padding: .5em;
   width: 800px;
+  min-height: 100vh;
 }
 
 nav > ul > a li {
