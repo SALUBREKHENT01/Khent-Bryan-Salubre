@@ -1,0 +1,58 @@
+body {
+  font-size: 1.5em;
+}
+a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color: chocolate;
+  text-align: center;
+}
+nav {
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .5em;
+  width: 800px;
+}
+
+nav > ul > a li {
+  cursor: pointer;
+  padding: 1px;
+}
+
+nav > ul a:hover {
+  border-bottom: 2px solid goldenrod;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+main > .news {
+  border: 1px solid black;
+  padding: .4em;
+  border-radius: .4em;
+  margin: .5em;
+}
+
+footer {
+  background-color: chocolate;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
